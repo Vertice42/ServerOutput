@@ -41,6 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# app built
+output-server-win32-x64
+
 # TypeScript v1 declaration files
 typings/
 
