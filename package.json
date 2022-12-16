@@ -1,0 +1,19 @@
+{
+    "name": "output-server",
+    "version": "1.0.0",
+    "description": "server",
+    "main": "main.js",
+    "author": "Thiago Ruas Freire",
+    "scripts": {
+        "start": "electron .",
+        "build": "npx electron-packager . --icon outIcon.ico --overwrite"
+    },
+    "dependencies": {
+        "child_process": "^1.0.2",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security"
+    },
+    "devDependencies": {
+        "electron": "^15.3.1"
+    }
+}

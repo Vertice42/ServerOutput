@@ -1,0 +1,127 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Designer/Montserrat-Black.ttf'); 
+}
+body{
+    font-family: 'Montserrat';
+    font-size: 5vw;
+    color: #ffffff;
+    overflow: hidden; 
+    background-image: url("Designer/backgrund_with.png") ;    
+    margin-bottom: -1vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: -5vh;
+    background-color: #535353;
+}
+
+span{
+    margin: 10px;
+}
+
+#MainDiv{
+    min-height: 70vh;
+    max-height: 70vh;
+    background-color: rgba(41, 41, 41, 0.473);
+    overflow: auto;
+}
+
+.StageState{
+    display: flex;
+    background-color: rgba(228, 228, 228, 0.575);
+}
+
+.StageName{
+    margin: 0.5% 2%;
+    background-color: rgba(209, 209, 209, 0.527);
+}
+
+.ProgressBarDiv{
+    width: 100%;
+    margin: 0.3vw 0.1vw;
+    background-color: rgba(223, 222, 222, 0.596);
+}
+
+.ProgressBar{
+    margin: 5px 2%;
+    margin-left: 0px;
+    background-image: linear-gradient(to right, rgb(255 255 255 / 13%) 30%,
+     rgb(255 255 255 / 63%));
+     
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-delay: 0ms;
+}
+
+.StageName{
+    margin-left: 1vw;
+    min-width: 30vw;
+    display: flex;
+}
+
+.StageName span{
+    margin: auto;
+}
+
+.StatusResultDiv{
+    display: flex;
+    background: #c5c5c5;
+    margin: 0.3vw 1vw;
+}
+
+.StatusResult{
+    margin: auto 1vw;
+    height: 6vw;
+    width: 6vw;
+    border: solid white;
+    border-radius: 100%;
+  }
+
+.VideoDiv{
+    display: none;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,0);
+    background-color: rgb(151, 151, 151);
+}
+
+video{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.VideoDiv button{
+    position: absolute;
+    background-color: rgb(223, 58, 58);
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    float: right;
+    border: none;
+    font-family: cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.InfoDiv{
+    background-color: #d4d4d4;
+    min-height: 27vh;
+    font-size: small;
+}
+
+.InfoDiv p{
+    min-width: 50vw;
+    max-width: 50vw;
+    margin: 10px;
+    text-align: center;
+}
+
+#ErrorInfoDiv{
+    color: red;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+  </head>
+  <body>
+    <div id="MainDiv"></div>
+    <div class="VideoDiv" id="VideoDivID">
+      <button id="closeButtonID">X</button>
+      <video controls>
+        <source src="file:///C://Users//ADM//Desktop//MuxTes.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="InfoDiv">
+      <div id="InfoText"></div>
+      <div id="ErrorInfoDiv"></div>
+    </div>
+     <script src="./renderer.js"></script>
+  </body>
+
+  <script> </script>
+
+</html>
